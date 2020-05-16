@@ -58,8 +58,6 @@ arrival2=finish1      #서버1의 finish time이 서버2의 arrival time임
 service_start2=[]
 finish2=[]
 
-#여기서는 for문 들어가고 나서 초기설정 안해줘도 되는거 맞냐
-#ㄴㄴ 똑같이 짜야됨. append만 빼고.
 
 for i in range(100000): 
     ServiceTime_2 = np.random.exponential(1/mu_2)
